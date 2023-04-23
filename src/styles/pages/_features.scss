@@ -1,0 +1,364 @@
+@media (min-width:768px){
+.bloc_features{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1160px;
+  .block_frequently{
+    margin-bottom: 20px;
+ h2{
+  text-align: center;
+  font-weight: 500;
+  color: $VeryDarkBlue;
+  font-size: 1.6em;
+}
+  .text_features{
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  width: 42%;
+  color: $GrayishBlue;
+  margin-bottom: 4em;
+  }
+  }
+
+.features_routes{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      max-width: 60%;
+      margin: auto;
+     
+      h3{
+        cursor: pointer;
+      width: auto;
+      font-weight: 400;
+      font-style: 12px;
+      font-size: 1em;
+      margin-left: 40px;
+      color:$GrayishBlue
+   
+    }:hover{
+      color: $SoftRed;
+      font-weight: 500;
+    }
+    .divider{
+      display: none;
+    }
+    
+  }
+   .divider_desktop{
+       display: flex;
+      justify-content: center;
+     
+      height: 7em;
+      width: 80%;
+      position: relative;
+      z-index: 19;
+      background: $GrayishBlue;
+      margin:auto;
+    }
+.tablet_and_text{
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  
+  .block_book_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 70px;
+  h4{
+       
+              font-weight: 600;
+              color: $VeryDarkBlue;
+              font-size: 1.8em;
+           
+              width: 70%;
+              
+              margin-bottom: 20px;
+    }
+    p{
+      
+            color: $GrayishBlue;
+            line-height: 1.8em;
+             font-size: 18px;
+            width: 76%;
+            display: block;
+            justify-content: center;
+  
+            margin-bottom: 20px;
+    }
+     button{
+
+        @include btn_browser($SoftBlue,#fff, 0);
+        display:flex; 
+        width: 20%;
+        padding-left: 30px;
+       
+       
+        margin-bottom: 8em;
+        cursor: pointer;
+        &:hover{
+        background: #fff;
+        color:$SoftBlue;
+        border: $SoftBlue 2px solid;
+    
+       }
+      }
+  }
+ 
+}
+//Download the extension
+ .bookmark_click{
+        margin: auto;
+        max-width: 1200px;
+        .extensions_and_text{
+ h4{
+        
+        font-weight: 600;
+        color: $VeryDarkBlue;
+        font-size: 1.8em;
+        text-align: center;
+        width: 70%;
+        margin:3em auto;
+        margin-bottom: 20px;
+}
+     p{
+            text-align: center;
+            color: $GrayishBlue;
+            line-height: 1.8em;
+            font-size: 16px;
+          width: 50%;
+            display: block;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 20px;
+          }
+        }
+ 
+    .my_cards{
+            
+      display: flex;
+      justify-content: center;
+      margin: 60px auto;
+          }
+//Frequently Asked Questionx
+    .title_frequently{
+      color: $GrayishBlue;
+      text-align: center;
+      margin-bottom: 20px;
+  h4{
+        
+      font-weight: 600;
+      color: $VeryDarkBlue;
+      font-size: 1.8em;
+      text-align: center;
+      width: 70%;
+      margin:3em auto;
+      margin-bottom: 20px;
+      }
+p{
+      max-width: 40%;
+      margin: auto;
+}
+    }
+     
+    .bloc_react{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin: auto;
+        flex-direction: column;
+         max-width: 75%;
+        list-style: none;
+        margin-bottom: 4em;
+       li{
+        .mini_bloc{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 2em;
+          .arrow_bottom{
+            font-size: 1.8em;
+            color: $SoftBlue;
+            cursor: pointer;
+
+             &:hover{
+    color: $SoftRed;
+   }
+          }
+         
+         p{
+    margin-top: -10px;
+    font-size: 18px;
+   
+   }
+        }
+        .text_bloc{
+          color: $GrayishBlue;
+          display: none;
+       
+        }
+        //Animation my collapse
+        .text_bloc.hideText {
+             display: flex;
+              max-width: 100%;
+        }
+    
+        .divider{
+          margin-top: 40px;
+          width: 100%;
+        }
+       }
+      }
+  
+      }
+      h5{
+        margin-top: 0;
+        margin-bottom: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+   &:hover{
+    color: $SoftRed;
+   }
+ 
+  }
+}
+          
+           .more_info_2{
+
+        @include btn_browser($SoftBlue,#fff, 0);
+        display:flex; 
+        margin-top: 8em;
+        margin: auto;
+        margin-bottom: 8em;
+
+        &:hover{
+        background: #fff;
+        color:$SoftBlue;
+        border: $SoftBlue 2px solid;
+    
+       }
+      }
+     
+
+}
+//max-width: 768px
+@media (max-width: 768px) {
+
+    .bloc_features{
+
+        h2{
+            
+            margin-top: 50px;
+              font-weight: 500;
+              color: $VeryDarkBlue;
+              font-size: 1.6em;
+              text-align: center;
+          }
+          p{
+            text-align: center;
+            color: $GrayishBlue;
+            line-height: 1.8em;
+            font-size: 0.9em;
+            width: 90%;
+            display: block;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 20px;
+          }
+          .features_routes{
+            text-align: center;
+        margin-top: 12px;
+       
+          h3{
+            cursor: pointer;
+            font-weight: 300;
+            font-style: 12px;
+            font-size: 1em;
+          }:hover{
+            font-weight: 500;
+            color:$SoftRed
+          }
+          }
+          .display_tablet{
+            
+     @include screen_presentation(90%, 15px,  0 20em 20em 0);
+      .blue_cube_round{
+
+        margin-right: 4em;
+    }
+  
+    }
+        ul{
+          padding-left: 0;
+       
+           li{
+             display: flex;
+        justify-content: space-around;
+             flex-direction: column;
+             
+            margin: auto;
+            .mini_bloc{
+               width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 20px auto 0;
+          padding:0 20px;
+         
+         h5{
+            text-align: left;
+            font-size: 1em;
+            font-weight: 500;
+            color: #000;
+          }
+          .arrow_bottom{
+            color: $SoftBlue;
+            font-size: 1.8em;
+        
+            cursor: pointer;
+            
+          }
+         }
+         .text_bloc{
+          text-align: left;
+         }
+           }
+        }
+    }
+    
+      .bookmark_click,.block_book_text{
+        h4{
+             
+              font-weight: 600;
+              color: $VeryDarkBlue;
+              font-size: 1.4em;
+              text-align: center;
+              width: 80%;
+              margin:3em auto;
+              margin-bottom: 20px;
+    }
+    
+   p{
+    margin-top: -10px;
+   }
+  
+   button {
+
+     @include btn_browser($SoftBlue,#fff, 0);
+     display:flex;
+     margin: auto;
+     margin-bottom: 4em;
+   }
+      }
+      .more_info_2{
+             @include btn_browser($SoftBlue,#fff, 0);
+     display:flex;
+     margin: auto;
+     margin-bottom: 4em;
+     
+      }
+
+}

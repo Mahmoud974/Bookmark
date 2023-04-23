@@ -1,0 +1,110 @@
+@media (min-width: 768px) {
+ 
+.send_mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    height:22em;
+    width: 100%;
+    background: $SoftBlue;
+    small{
+        margin-top: 80px;
+        white-space: 10px;
+        word-spacing: 60%;
+    }
+    h4{
+        margin-top: 18px;
+        font-size: 1.8em;
+        width: 25%;
+        text-align: center;
+        color: #FFF;
+    }
+   div{
+        
+        input[type="email"]{
+        width: 20em;
+        margin-bottom: 4%;
+      height: 3.5em;
+      border-radius: 0.3em;
+      border:none;
+    }
+    input[type="submit"]{
+         width: 10em;
+         margin-top: 20px;
+         
+        @include btn_browser($SoftRed,#FFF,0);
+        padding: 15px 0;
+        margin-left: 20px;
+        box-shadow: none;
+    }
+    }
+.btn_submit{
+                height: 70%;
+            }
+     .input_footer{
+        display: flex;
+        flex-direction: row;
+        }
+         .inputAndBtn{
+            
+        display: flex;
+        flex-direction: column;
+        // #email_customer{
+        //     border: $SoftRed 4px solid ;
+        // }
+        p{
+            font-style: italic;
+           
+            background:$SoftRed ;
+            width: 16.7em;
+            border-radius: 0 0 10px 10px;
+            padding: 10px;
+            
+        margin-top: -18px;
+        }
+    
+        
+    }
+}}
+
+@media (max-width: 768px) {
+    //TODO:à faire au milie du bloc bleu
+.send_mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    height:22em;
+    width: 100%;
+    background: $SoftBlue;
+    small{
+        margin-top: 80px;
+        white-space: 10px;
+        word-spacing: 60%;
+    }
+    h4{
+        margin-top: 6px;
+        color: #FFF;
+    }
+    div{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+        input[type="email"]{
+        width: 20em;
+        margin-bottom: 4%;
+      height: 3.5em;
+      border-radius: 0.3em;
+      border:none;
+    }
+    input[type="submit"]{
+         width: 21em;
+         margin-top: 20px;
+        @include btn_browser($SoftRed,#FFF,0);
+        box-shadow: none;
+    }
+    }
+}}
