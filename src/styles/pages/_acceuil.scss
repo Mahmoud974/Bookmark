@@ -4,8 +4,9 @@
     flex-direction: row-reverse;
     margin: auto;
     margin-top: 80px;
-max-width: 1160px;
-
+    max-width: 1160px;
+  
+    
     .simple_bookmark{
         h1{
         font-weight: 500;
@@ -56,7 +57,9 @@ max-width: 1160px;
 @media (max-width: 768px) {
  
 .bloc_home{
-        margin: 0 auto;
+         margin-top: 5rem;
+          flex-direction: column;
+         
 .display_tablet{
     @include screen_presentation(95%, 10px,  20em 0 0 20em);
     .blue_cube_round{
@@ -64,7 +67,7 @@ max-width: 1160px;
     }
     }
 .simple_bookmark{
-    margin-top: 30px;
+    margin-top: 2rem;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
