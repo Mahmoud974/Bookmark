@@ -15,7 +15,7 @@ const Navbar = () => {
         <li>PRICING</li>
         <li>CONTACT</li>
         <li>
-          <button>LOGIN</button>
+          <button className="login">LOGIN</button>
         </li>
       </ul>
     </nav>

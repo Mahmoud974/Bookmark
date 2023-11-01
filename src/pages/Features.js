@@ -32,7 +32,6 @@ const Features = () => {
         setTextFeatures("Share your bookmarks");
         break;
       default:
-        console.log("okko");
     }
   };
 
